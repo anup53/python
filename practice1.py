@@ -1,7 +1,7 @@
 # Python program to split a string and 
 # join it using different delimiter 
 
-def split_string(string): 
+def split(string): 
 
 	# Split the string based on space delimiter 
 	list_string = string.split(' ') 
@@ -10,12 +10,14 @@ def split_string(string):
 
 
 
-def join_string(list_string): 
+def join(list_string): 
 
 	# Join the string based on '-' delimiter 
 	string = '-'.join(list_string) 
 	
 	return string 
+def convert(c):
+	c=string+x
 
 	
 	# Splitting a string 
