@@ -6,7 +6,9 @@ def split_string(string):
 	# Split the string based on space delimiter 
 	list_string = string.split(' ') 
 	
-	return list_string 
+	return string
+
+
 
 def join_string(list_string): 
 
@@ -15,8 +17,6 @@ def join_string(list_string):
 	
 	return string 
 
-# Driver Function 
-	string = 'Geeks for Geeks'
 	
 	# Splitting a string 
 	string_list = split_string(string) 
