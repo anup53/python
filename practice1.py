@@ -16,13 +16,12 @@ def join_string(list_string):
 	return string 
 
 # Driver Function 
-if __name__ == '__main__': 
 	string = 'Geeks for Geeks'
 	
 	# Splitting a string 
-	list_string = split_string(string) 
+	string_list = split_string(string) 
 	print(list_string) 
 
 	# Join list of strings into one 
 	new_string = join_string(list_string) 
-	print(new_string) 
+	newstring+="akshay"
